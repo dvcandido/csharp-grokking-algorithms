@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-selection-sort", "src\02
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-recursion", "src\03-recursion\03-recursion.csproj", "{64D5475D-A44E-41D2-83D8-3DFF3F1C6854}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-quicksort", "src\04-quicksort\04-quicksort.csproj", "{AB20CA55-010B-4BA9-B2A1-C07F7C564121}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{64D5475D-A44E-41D2-83D8-3DFF3F1C6854}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64D5475D-A44E-41D2-83D8-3DFF3F1C6854}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64D5475D-A44E-41D2-83D8-3DFF3F1C6854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB20CA55-010B-4BA9-B2A1-C07F7C564121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB20CA55-010B-4BA9-B2A1-C07F7C564121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB20CA55-010B-4BA9-B2A1-C07F7C564121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB20CA55-010B-4BA9-B2A1-C07F7C564121}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +46,7 @@ Global
 		{ACD5799E-F3DD-43D3-831A-A13CC0FBCEDF} = {DA4533D2-7E94-49F0-8EE6-CEB16628FB73}
 		{3410353B-2BDD-4933-BDDD-A747CB6A566B} = {469231FB-4789-49FD-94A6-283E355E246C}
 		{64D5475D-A44E-41D2-83D8-3DFF3F1C6854} = {469231FB-4789-49FD-94A6-283E355E246C}
+		{AB20CA55-010B-4BA9-B2A1-C07F7C564121} = {469231FB-4789-49FD-94A6-283E355E246C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CBBA8879-537F-4C22-B04A-D3CAD596613F}
