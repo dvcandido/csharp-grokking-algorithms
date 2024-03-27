@@ -1,4 +1,6 @@
-﻿int[] arr = [1, 2, 3, 4, 1, 10, 15, 8];
+﻿using _04_quicksort;
+
+int[] arr = [1, 2, 3, 4, 1, 10, 15, 8];
 
 Console.WriteLine($"Sun total is {sun(arr)}");
 
@@ -62,3 +64,8 @@ static int binarySearch(int[] arr, int number, int hig, int low)
             return binarySearch(arr, number, hig, mid + 1);
     }
 }
+
+List<int> array = [3, 6, 8, 1, 5, 2, 7, 4];
+List<int> sortedArray = QuickSort.Sort(array);
+
+Console.WriteLine(string.Join(", ", sortedArray));
